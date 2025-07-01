@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="min-h-screen bg-gray-200 flex items-center justify-center p-4">
+    <div class="bg-white p-6 rounded-xl shadow-lg max-w-md">
+      <!-- form input aktivitas -->
+      <h1 class="text-2xl font-bold text-center mb-4">
+        Mau ngapain nih hari ini? 🤔
+      </h1>
+
+      <div class="flex gap-2 mb-4">
+        <input
+          type="text"
+          id="input"
+          placeholder="Contoh: Belajar JavaScript"
+          class="flex-1 border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
+        <button
+          id="btn"
+          class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+        >
+          Tambah
+        </button>
+      </div>
+
+      <!-- tempat untuk memunculkan aktivitas -->
+      <div id="todo" class="space-y-2">
+        <!-- List akan ditambahkan di sini -->
+      </div>
+    </div>
+
+    <!-- js -->
+     <script src="./script.js"></script>
+  </body>
+</html>
